@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /*чтобы пэдинги не делали лишних отступов */
+}
+
+body {
+  height: 100vh; /*отступ сверху */
+  display: flex;
+  align-items: center; /*разместить все элементы бади по центру */
+  justify-content: center;
+  font-family: Montserrat, sans-serif;
+}
+
+a {
+  color: #0e25f1b9;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column; /*чтобы все элементы стали в столбик  */
+  width: 335px;
+}
+
+p {
+  margin: 10px 0;
+}
+input {
+  margin: 10px 0;
+  padding: 10px;
+  border: unset; /*уберем свойствы бордер */
+  border-bottom: 2px solid #e3e3e3; /*подсветка рамки только снизу */
+  outline: none; /*при наведении не подсвечиваетсяформа */
+}
+button {
+  padding: 10px;
+  background: #9492929d;
+  border: unset; /*убираем рамку */
+  cursor: pointer; /*при наведении курсор меняется на руку */
+}
+
+.msg {
+  border: 2px solid #0f90dbb2;
+  border-radius: 10px;
+  padding: 4px;
+  text-align: center;
+  font-weight: bold;
+  color: #ec780b;
+  font-family: Arial, Helvetica, sans-serif;
+}
